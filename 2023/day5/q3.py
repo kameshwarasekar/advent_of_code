@@ -3,7 +3,7 @@ import math
 
 def perform_action(input):
     input_len = len(input)
-    with open("input_1.txt", "r") as file:
+    with open("input.txt", "r") as file:
         line = file.readline().strip()
         while line:
             if not line:
@@ -42,7 +42,7 @@ def perform_action(input):
         return min(input)
 
 
-with open("input_1.txt", "r") as file:
+with open("input.txt", "r") as file:
     line = file.readline().strip()
     input_pairs = line[7:].split(" ")
     mins = math.inf
