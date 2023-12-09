@@ -1,3 +1,4 @@
+from _typeshed import SupportsAnext
 import sys
 from functools import cmp_to_key
 
