@@ -5,6 +5,7 @@ filename = sys.argv[1]
 paths = {}
 instructions = ""
 current = []
+
 with open(filename, "r") as file:
     instructions = file.readline().strip()
     line = file.readline()
